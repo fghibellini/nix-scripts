@@ -1,30 +1,7 @@
+
 # nix-scripts
 
-## `dump-nix-haskell-package-versions.sh`
+Collection of scripts and programs I had to hack up while working with Nix.
 
-```bash
-./dump-nix-haskell-package-versions.sh | head -n 20
-```
-
-```
-[
-  {
-    "attr": "3d-graphics-examples",
-    "isBroken": false,
-    "pname": "3d-graphics-examples",
-    "version": "0.0.0.2"
-  },
-  {
-    "attr": "3dmodels",
-    "isBroken": false,
-    "pname": "3dmodels",
-    "version": "0.3.0"
-  },
-  {
-    "attr": "4Blocks",
-    "isBroken": false,
-    "pname": "4Blocks",
-    "version": "0.2"
-  },
-  {
-```
+- [dump-nix-haskell-package-versions](./dump-nix-haskell-package-versions)
+- [monorepo-gen-env](./monorepo-gen-env)
